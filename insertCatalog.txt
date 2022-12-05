@@ -1,0 +1,19 @@
+ INSERT INTO catalog(
+	id_catalog, created_at, created_by, name, updated_at, updated_by, parent_id,is_deleted)
+	VALUES (1, '2022-07-06 11:08:33.236396', 'ADMIN', 'TIPO VACUNA', null, '', null, 0 );
+
+    INSERT INTO catalog(
+	id_catalog, created_at, created_by, name, updated_at, updated_by, parent_id,is_deleted)
+	VALUES (2, '2022-07-06 11:08:33.236396', 'ADMIN', 'SPUTNIK', null, '', 1 , 0);
+
+    INSERT INTO catalog(
+	id_catalog, created_at, created_by, name, updated_at, updated_by, parent_id,is_deleted)
+	VALUES (3, '2022-07-06 11:08:33.236396', 'ADMIN', 'ASTRAZENECA', null, '', 1, 0 );
+
+    INSERT INTO catalog(
+	id_catalog, created_at, created_by, name, updated_at, updated_by, parent_id,is_deleted)
+	VALUES (4, '2022-07-06 11:08:33.236396', 'ADMIN', 'PFIZER', null, '', 1 , 0);
+
+    INSERT INTO catalog(
+	id_catalog, created_at, created_by, name, updated_at, updated_by, parent_id,is_deleted)
+	VALUES (5, '2022-07-06 11:08:33.236396', 'ADMIN', 'JHONSON&JHONSON', null, '', 1, 0 );

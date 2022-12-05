@@ -1,0 +1,16 @@
+INSERT INTO rol(
+	id_rol, description, name)
+	VALUES (1, 'Crear,editar,listar,eliminar a los empleados', 'ADMIN');
+	
+	INSERT INTO rol(
+	id_rol, description, name)
+	VALUES (2, 'actualizar información de la vacunacion', 'EMPLOYEE');
+
+
+	INSERT INTO users(
+	id_user, password, username, status)
+	VALUES (1, '$2a$12$jFkvWKFPLjovTSOJ/.iDDuGfi4PbeWm2OiWlqbqUFcAiAAfOKfRr6', 'admin@gmail.com', '1');
+
+	INSERT INTO user_rol(
+	id_user, id_rol)
+	VALUES (1, 1);
